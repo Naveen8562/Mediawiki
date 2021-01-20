@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: ksingh3/mediawiki
+  repository: killerhack1122/mediawiki:appdeploy
   pullPolicy: IfNotPresent
-  tag: deploy
+  tag: appdeploy
 
 imagePullSecrets: []
 nameOverride: ""
