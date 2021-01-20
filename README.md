@@ -5,7 +5,7 @@ This project containerizes the Media Wiki application along with Mariadb under C
 ## Install
 
 Following are the prerequisite before going forward:
-- [Docker](https://docs.docker.com/engine/install/ubuntu/)
+- [Docker Version 20.10](https://docs.docker.com/engine/install/ubuntu/)
 - [Helm v3.5.0](https://helm.sh/docs/intro/install/) 
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) 
 
