@@ -15,8 +15,8 @@ Following are the prerequisite before going forward:
 You can use my docker hub images, else you can create you own image beofre create run docker login.
 
 ### Use my docker images
-- Application image: [killerhack1122/mediawiki:appdeploy](https://hub.docker.com/layers/killerhack1122/mediawiki/tags/)
-- Mariadb Image: [killerhack1122/mediawiki:dbdeploy](https://hub.docker.com/layers/killerhack1122/mediawiki/tags/)
+- Application image: [killerhack1122/mediawiki:appdeploy](https://hub.docker.com/layers/133454407/killerhack1122/mediawiki/appdeploy)
+- Mariadb Image: [killerhack1122/mediawiki:dbdeploy](https://hub.docker.com/layers/133454534/killerhack1122/mediawiki/dbdeploy)
 
 ```shell
 $ docker pull killerhack1122/mediawiki:dbdeploy
