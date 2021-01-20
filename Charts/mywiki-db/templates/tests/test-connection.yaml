@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: "{{ include "mywiki-db.fullname" . }}-test-connection"
+  labels:
+    {{- include "mywiki-db.labels" . | nindent 4 }}
+  annotations:
+    "helm.sh/hook": test-success
+spec:
+  containers:
+    - name: wget
+      image: busybox
+      command: ['wget']
+      args: ['{{ include "mywiki-db.fullname" . }}:{{ .Values.service.port }}']
+  restartPolicy: Never
