@@ -5,9 +5,9 @@
 replicaCount: 1
 
 image:
-  repository: ksingh3/mediawiki
+  repository: killerhack1122/mediawiki:dbdeploy
   pullPolicy: Always
-  tag: db
+  tag: dbdeploy
 
 imagePullSecrets: []
 nameOverride: ""
